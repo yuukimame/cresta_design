@@ -1,0 +1,216 @@
+body{
+  font-family: "Roboto";
+  color: #141414;
+  overflow-x: hidden;
+}
+
+h1{
+  font-size: 26px;
+}
+
+h3{
+  font-size: 24px;
+  font-family: "Noto Sans CJK JP";
+  margin-bottom: 42px;
+  line-height: 3rem;
+}
+
+p{
+  font-size: 14px;
+  font-family: "Noto Sans CJK JP";
+  font-weight: bold;
+  line-height: 2rem;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  width: 1030px;
+  margin: 0 auto;
+}
+
+.title{
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+/* header */
+header{
+  height: 74px;
+  background-color: #1B1310;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.header{
+  display: flex;
+  margin: 0 50px;
+  line-height: 74px;
+}
+
+.header-title{
+  margin: auto 0;
+}
+
+nav{
+  margin: 0 0 0 auto;
+}
+
+nav ul{
+  display: flex;
+  padding: auto 0;
+}
+
+nav ul li a{
+  display: inline-block;
+  font-size: 21px;
+  color: #fff;
+  margin: auto 15px;
+}
+
+.sp-menu{
+  display: none;
+}
+
+/* main */
+#main{
+  background-image: url(../img/top.jpg);
+  background-size: cover;
+  height: 740px;
+}
+
+.main-title{
+  padding-top: 300px;
+  text-align: center;
+}
+
+.main-title h1{
+  font-size: 50px;
+  color: #fff;
+  padding: 35px 45px;
+  border: 1px solid #fff;
+  display: inline-block;
+}
+/* about */
+#about{
+  margin-top: 100px;
+}
+
+/* service */
+#service{
+  margin-top: 150px;
+}
+
+.service-box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.servce-image, .service-text{
+  flex-basis: 47%;
+}
+
+.service-box:nth-of-type(1){
+  margin-bottom: 50px;
+}
+
+.pc-hide{
+  display: none;
+}
+
+/* news */
+#news{
+  margin-top: 150px;
+}
+
+.news-boxes{
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-box{
+  width: 31%;
+  height: 320px;
+  background-color: #fff;
+  border: 1px solid #707070;
+}
+
+.news-image{
+  width: 100%;
+}
+
+.news-text{
+  height: 120px;
+}
+
+.news-text p{
+  font-size: 13px;
+  font-family: "Hiragino Kaku Gothic ProN";
+  font-weight: normal;
+  padding: 20px;
+  line-height: 1.5rem;
+}
+/* contact */
+#contact{
+  margin-top: 150px;
+}
+
+#contact .container{
+  width: 700px;
+}
+
+form p{
+  font-size: 14px;
+  font-family: "Hiragino Kaku Gothic ProN";
+  font-weight: normal;
+  line-height: normal;
+}
+
+input{
+  margin-bottom: 22px;
+  height: 30px;
+}
+
+textarea{
+  margin-bottom: 50px;
+}
+
+input, textarea{
+  width: 100%;
+  border: 1px solid #141414;
+}
+
+.contact-btn{
+  text-align: center;
+}
+
+.contact-btn button{
+  height: 60px;
+  width: 235px;
+  border: 1px solid #141414;
+  border-radius: 60px;
+  background-color: #141414;
+  color: #fff;
+  font-size: 20px;
+  font-family: Avenir;
+  margin-bottom: 50px;
+}
+/* footer */
+footer{
+  height: 80px;
+  background-color: #141414;
+  color: #fff;
+  text-align: center;
+  line-height: 80px;
+}
+
+small{
+  font-size: 14px;
+}
